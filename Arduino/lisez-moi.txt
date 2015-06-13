@@ -1,0 +1,34 @@
+//////////////////////////////////////////////////////////////////////
+// **************************************************************** //
+// ********************* OCTOGEEK - OCTODTMF ********************** //
+// **************************************************************** //
+//////////////////////////////////////////////////////////////////////
+
+Détection de 4 signaux DTMF: 
+	ou il regroupe les données avec horodatage sur fichier SD.
+	Synchro RTC "possible" par logiciel (OCTO-RTC).
+	"Support série disponible pour debug."
+//////////////////////////////////////////////////////////////////////
+Utilisation du décodeur.
+1)	Formaté la carte SD en FAT32.
+*)	Brancher l'alimentation.
+	Si le module temps-réel n'est pas à l'heure:
+		- Brancher le câble USB.
+		- Exécuter le programme (OCTO-RTC)
+		- Sélectionner le port COM. attendre le reboot du détecteur.
+		- Cliquer sur le bouton (synchro-RTC).
+		- Cliquer sur le bouton (EXIT).
+*)	Débrancher l’alimentation (et le câble USB).
+2)	Insérer la carte SD.
+3)	Brancher les sources DTMF.
+4)	Brancher l'alimentation.
+	FIN
+//////////////////////////////////////////////////////////////////////	
+"La mise à jour du RTC, nécessite un reboot du détecteur(reset).
+
+
+//////////////////////////////////////////////////////////////////////
+Autre!
+PLACE LE DOSSIER 1	(Octo-DTMF _OK\Soft_PC\1)
+C:\Users\PC(UTILISATEUR)\Documents\Processing\libraries (emplacement de la bibliothèque processing.
+//////////////////////////////////////////////////////////////////////
